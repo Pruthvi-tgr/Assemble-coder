@@ -1,17 +1,23 @@
-Branches: 
+## Branches: 
 
-1. Main Branch: This will be your stable branch, where only the finalized, approved code is merged.
-2. Code Review Branch: Contributors will push their code.
+1. `Main` Branch: This will be your stable branch, where only the finalized, approved code is merged.
+2. `Code-Review` Branch: Contributors will push their code.
 
-Rules: 
-1. A Code Review was done during the practicing session. then will push code into main branch.
+## Rules: 
+- A Code Review was done during the practicing session. then will push code into main branch.
 
-Steps:
+
+## How to Contribute
+- Clone the repository and switch to the `code-review` branch.
+- Push your changes to `code-review`.
+- The maintainer will review and merge your changes into the `main` branch.
+
+## Steps:
 1. Commit Code
 2. Clone code
 3. Git fork
 
-Git Command uses:
+## Git Command uses:
 
 1. Git add . -adding all to commit from the directory
 2. Git commit -m ‘text for update’
